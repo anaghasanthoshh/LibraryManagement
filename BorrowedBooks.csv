@@ -1,0 +1,4 @@
+MemberId,MemberName,BookId,No_of_Copies_Available,Date,ReturnDate,Fine
+1,Anu,1,0,2024-08-16
+
+1,Anu,2,1,2024-08-16,,
