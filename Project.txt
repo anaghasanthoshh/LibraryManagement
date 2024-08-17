@@ -1,0 +1,29 @@
+Library Management System
+
+Description:
+Create a Library Management System that allows users to manage books, members, and book loans. This system will include features like adding new books, registering members, lending books, and returning books. The project will make use of inheritance, abstract classes, polymorphism, file handling, exception handling, and a MySQL database for data persistence.
+
+Key Features:
+
+	•	Classes:
+	•	Person (Abstract Class): Base class for Member and Librarian.-- Done
+	•	Book: Represents a book with attributes like title, author, ISBN, and availability status.--Done
+	•	Member: Inherits from Person and can borrow/return books.
+	•	Librarian: Inherits from Person and manages the book inventory.
+	•	Loan: Represents a loan transaction, linking a Member to a borrowed Book.
+	•	Inheritance & Polymorphism:
+	•	Person as an abstract class with abstract methods like get_info() that are implemented differently in Member and Librarian.
+	•	File Handling:
+	•	Store and retrieve books, members, and loans data from files (e.g., CSV or JSON format).
+	•	Exception Handling:
+	•	Handle exceptions such as BookNotAvailableError, MemberNotFoundError, and file-related exceptions.
+	•	MySQL Database:
+	•	Store books, members, and loan data in a MySQL database.
+	•	Use SQL queries for CRUD (Create, Read, Update, Delete) operations on the database.
+
+Example Tasks:
+
+	•	Adding a new book to the system.
+	•	Registering a new member.
+	•	Borrowing a book and recording the loan in the database.
+	•	Returning a book and updating its availability status.
